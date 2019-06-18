@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		418C50731C40FCE000B6D260 /* settings-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 418C50721C40FCE000B6D260 /* settings-256.png */; };
+		41A2C7D91C40FB7400B6C393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2C7D81C40FB7400B6C393 /* AppDelegate.swift */; };
+		41A2C7DB1C40FB7400B6C393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2C7DA1C40FB7400B6C393 /* ViewController.swift */; };
+		41A2C7E01C40FB7400B6C393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A2C7DF1C40FB7400B6C393 /* Assets.xcassets */; };
+		41A2C7E31C40FB7400B6C393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A2C7E11C40FB7400B6C393 /* LaunchScreen.storyboard */; };
+		41A2C7EE1C40FB7400B6C393 /* Cadence_counterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2C7ED1C40FB7400B6C393 /* Cadence_counterTests.swift */; };
+		41A2C7F91C40FB7400B6C393 /* Cadence_counterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2C7F81C40FB7400B6C393 /* Cadence_counterUITests.swift */; };
+		41A2C8071C40FB9C00B6C393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A2C8061C40FB9C00B6C393 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41A2C7EA1C40FB7400B6C393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41A2C7CD1C40FB7400B6C393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A2C7D41C40FB7400B6C393;
+			remoteInfo = "Cadence counter";
+		};
+		41A2C7F51C40FB7400B6C393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41A2C7CD1C40FB7400B6C393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A2C7D41C40FB7400B6C393;
+			remoteInfo = "Cadence counter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		418C50721C40FCE000B6D260 /* settings-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings-256.png"; path = "../settings-256.png"; sourceTree = "<group>"; };
+		41A2C7D51C40FB7400B6C393 /* Cadence counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cadence counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A2C7D81C40FB7400B6C393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41A2C7DA1C40FB7400B6C393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41A2C7DF1C40FB7400B6C393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41A2C7E21C40FB7400B6C393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41A2C7E41C40FB7400B6C393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A2C7E91C40FB7400B6C393 /* Cadence counterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cadence counterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A2C7ED1C40FB7400B6C393 /* Cadence_counterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadence_counterTests.swift; sourceTree = "<group>"; };
+		41A2C7EF1C40FB7400B6C393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A2C7F41C40FB7400B6C393 /* Cadence counterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cadence counterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A2C7F81C40FB7400B6C393 /* Cadence_counterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadence_counterUITests.swift; sourceTree = "<group>"; };
+		41A2C7FA1C40FB7400B6C393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A2C8061C40FB9C00B6C393 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41A2C7D21C40FB7400B6C393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A2C7E61C40FB7400B6C393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A2C7F11C40FB7400B6C393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41A2C7CC1C40FB7400B6C393 = {
+			isa = PBXGroup;
+			children = (
+				41A2C7D71C40FB7400B6C393 /* Cadence counter */,
+				41A2C7EC1C40FB7400B6C393 /* Cadence counterTests */,
+				41A2C7F71C40FB7400B6C393 /* Cadence counterUITests */,
+				41A2C7D61C40FB7400B6C393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41A2C7D61C40FB7400B6C393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41A2C7D51C40FB7400B6C393 /* Cadence counter.app */,
+				41A2C7E91C40FB7400B6C393 /* Cadence counterTests.xctest */,
+				41A2C7F41C40FB7400B6C393 /* Cadence counterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41A2C7D71C40FB7400B6C393 /* Cadence counter */ = {
+			isa = PBXGroup;
+			children = (
+				41A2C7D81C40FB7400B6C393 /* AppDelegate.swift */,
+				41A2C7DA1C40FB7400B6C393 /* ViewController.swift */,
+				41A2C8061C40FB9C00B6C393 /* Main.storyboard */,
+				41A2C7DF1C40FB7400B6C393 /* Assets.xcassets */,
+				418C50721C40FCE000B6D260 /* settings-256.png */,
+				41A2C7E11C40FB7400B6C393 /* LaunchScreen.storyboard */,
+				41A2C7E41C40FB7400B6C393 /* Info.plist */,
+			);
+			path = "Cadence counter";
+			sourceTree = "<group>";
+		};
+		41A2C7EC1C40FB7400B6C393 /* Cadence counterTests */ = {
+			isa = PBXGroup;
+			children = (
+				41A2C7ED1C40FB7400B6C393 /* Cadence_counterTests.swift */,
+				41A2C7EF1C40FB7400B6C393 /* Info.plist */,
+			);
+			path = "Cadence counterTests";
+			sourceTree = "<group>";
+		};
+		41A2C7F71C40FB7400B6C393 /* Cadence counterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41A2C7F81C40FB7400B6C393 /* Cadence_counterUITests.swift */,
+				41A2C7FA1C40FB7400B6C393 /* Info.plist */,
+			);
+			path = "Cadence counterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41A2C7D41C40FB7400B6C393 /* Cadence counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A2C7FD1C40FB7400B6C393 /* Build configuration list for PBXNativeTarget "Cadence counter" */;
+			buildPhases = (
+				41A2C7D11C40FB7400B6C393 /* Sources */,
+				41A2C7D21C40FB7400B6C393 /* Frameworks */,
+				41A2C7D31C40FB7400B6C393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cadence counter";
+			productName = "Cadence counter";
+			productReference = 41A2C7D51C40FB7400B6C393 /* Cadence counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41A2C7E81C40FB7400B6C393 /* Cadence counterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A2C8001C40FB7400B6C393 /* Build configuration list for PBXNativeTarget "Cadence counterTests" */;
+			buildPhases = (
+				41A2C7E51C40FB7400B6C393 /* Sources */,
+				41A2C7E61C40FB7400B6C393 /* Frameworks */,
+				41A2C7E71C40FB7400B6C393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A2C7EB1C40FB7400B6C393 /* PBXTargetDependency */,
+			);
+			name = "Cadence counterTests";
+			productName = "Cadence counterTests";
+			productReference = 41A2C7E91C40FB7400B6C393 /* Cadence counterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41A2C7F31C40FB7400B6C393 /* Cadence counterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A2C8031C40FB7400B6C393 /* Build configuration list for PBXNativeTarget "Cadence counterUITests" */;
+			buildPhases = (
+				41A2C7F01C40FB7400B6C393 /* Sources */,
+				41A2C7F11C40FB7400B6C393 /* Frameworks */,
+				41A2C7F21C40FB7400B6C393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A2C7F61C40FB7400B6C393 /* PBXTargetDependency */,
+			);
+			name = "Cadence counterUITests";
+			productName = "Cadence counterUITests";
+			productReference = 41A2C7F41C40FB7400B6C393 /* Cadence counterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41A2C7CD1C40FB7400B6C393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Gokul;
+				TargetAttributes = {
+					41A2C7D41C40FB7400B6C393 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					41A2C7E81C40FB7400B6C393 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 41A2C7D41C40FB7400B6C393;
+					};
+					41A2C7F31C40FB7400B6C393 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 41A2C7D41C40FB7400B6C393;
+					};
+				};
+			};
+			buildConfigurationList = 41A2C7D01C40FB7400B6C393 /* Build configuration list for PBXProject "Cadence counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41A2C7CC1C40FB7400B6C393;
+			productRefGroup = 41A2C7D61C40FB7400B6C393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41A2C7D41C40FB7400B6C393 /* Cadence counter */,
+				41A2C7E81C40FB7400B6C393 /* Cadence counterTests */,
+				41A2C7F31C40FB7400B6C393 /* Cadence counterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41A2C7D31C40FB7400B6C393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A2C7E31C40FB7400B6C393 /* LaunchScreen.storyboard in Resources */,
+				41A2C7E01C40FB7400B6C393 /* Assets.xcassets in Resources */,
+				418C50731C40FCE000B6D260 /* settings-256.png in Resources */,
+				41A2C8071C40FB9C00B6C393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A2C7E71C40FB7400B6C393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A2C7F21C40FB7400B6C393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41A2C7D11C40FB7400B6C393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A2C7DB1C40FB7400B6C393 /* ViewController.swift in Sources */,
+				41A2C7D91C40FB7400B6C393 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A2C7E51C40FB7400B6C393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A2C7EE1C40FB7400B6C393 /* Cadence_counterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A2C7F01C40FB7400B6C393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A2C7F91C40FB7400B6C393 /* Cadence_counterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41A2C7EB1C40FB7400B6C393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41A2C7D41C40FB7400B6C393 /* Cadence counter */;
+			targetProxy = 41A2C7EA1C40FB7400B6C393 /* PBXContainerItemProxy */;
+		};
+		41A2C7F61C40FB7400B6C393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41A2C7D41C40FB7400B6C393 /* Cadence counter */;
+			targetProxy = 41A2C7F51C40FB7400B6C393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41A2C7E11C40FB7400B6C393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41A2C7E21C40FB7400B6C393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41A2C7FB1C40FB7400B6C393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41A2C7FC1C40FB7400B6C393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41A2C7FE1C40FB7400B6C393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cadence counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skyguy.Cadence-counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41A2C7FF1C40FB7400B6C393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cadence counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skyguy.Cadence-counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41A2C8011C40FB7400B6C393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cadence counterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skyguy.Cadence-counterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cadence counter.app/Cadence counter";
+			};
+			name = Debug;
+		};
+		41A2C8021C40FB7400B6C393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cadence counterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skyguy.Cadence-counterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cadence counter.app/Cadence counter";
+			};
+			name = Release;
+		};
+		41A2C8041C40FB7400B6C393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cadence counterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skyguy.Cadence-counterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cadence counter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		41A2C8051C40FB7400B6C393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cadence counterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skyguy.Cadence-counterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cadence counter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41A2C7D01C40FB7400B6C393 /* Build configuration list for PBXProject "Cadence counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A2C7FB1C40FB7400B6C393 /* Debug */,
+				41A2C7FC1C40FB7400B6C393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A2C7FD1C40FB7400B6C393 /* Build configuration list for PBXNativeTarget "Cadence counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A2C7FE1C40FB7400B6C393 /* Debug */,
+				41A2C7FF1C40FB7400B6C393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A2C8001C40FB7400B6C393 /* Build configuration list for PBXNativeTarget "Cadence counterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A2C8011C40FB7400B6C393 /* Debug */,
+				41A2C8021C40FB7400B6C393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A2C8031C40FB7400B6C393 /* Build configuration list for PBXNativeTarget "Cadence counterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A2C8041C40FB7400B6C393 /* Debug */,
+				41A2C8051C40FB7400B6C393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41A2C7CD1C40FB7400B6C393 /* Project object */;
+}
